@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
 </head>
 <body>
-		<div class="slider">
+		<div class="slider red accent-3">
 			<ul class="slides">
 				<li>
 					<img src="http://wallpaper.zone/img/2906143.jpg">
@@ -38,7 +38,7 @@
 			</ul>
 		</div>
 
-		<div id="info">
+		<div id="info" class="red accent-3">
 			<form class="tiny">
 				<div class="row"></br>
 					<div class="col s2 offset-s1">
@@ -74,16 +74,22 @@
 						Dialogue: <input ng-model="quote" placeholder="dialougue phrase"></input>
 					</div>
 				</div>
-			</form>
+			</form></br>
 		</div>
 
-	<div class="container">
-		<div id="story">
-			<h4>When {{maleMainCharacter}} met {{femaleMainCharacter}}</h4>
-			<p>One day {{femaleMainCharacter}} came upon a {{house}} in the middle of the woods. She was curious about who would live there and went to investigate. When she entered the {{house}} she found {{maleMainCharacter}} standing next to a {{obj1}}. When she entered she was {{adj1}}, she did not know what she expected, but it certainly was not {{maleMainCharacter}}! {{maleMainCharacter}}, surprised and {{adj2}} to see {{femaleMainCharacter}} suggested that they go to the {{place}} and {{act1}}. When it became late they decided to go home in the {{trans}}. Before saying goodbye {{femaleMainCharacter}} said "{{quote}}" and started back to her own home.
-			</p>
+		<div class="section red accent-3" id="red">
+			<div class="row">
+				<div class="col s10 offset-s1 z-depth-2 white">
+					<div id="story">
+						</br>
+						<h4>When {{maleMainCharacter}} met {{femaleMainCharacter}}</h4>
+						<p>One day {{femaleMainCharacter}} came upon a {{house}} in the middle of the woods. She was curious about who would live there and went to investigate. When she entered the {{house}} she found {{maleMainCharacter}} standing next to a {{obj1}}. When she entered she was {{adj1}}, she did not know what she expected, but it certainly was not {{maleMainCharacter}}! {{maleMainCharacter}}, surprised and {{adj2}} to see {{femaleMainCharacter}} suggested that they go to the {{place}} and {{act1}}. When it became late they decided to go home in the {{trans}}. Before saying goodbye {{femaleMainCharacter}} said "{{quote}}" and started back to her own home.
+						</p>
+						</br>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
